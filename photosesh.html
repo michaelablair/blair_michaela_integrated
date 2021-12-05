@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>Name TBD</title>
+    <title>Blue Rose Photography - Photo Sessions</title>
 </head>
 <body>
  
     <a class="hidden" href="#content">Skip to content</a>
     <header>
-     
-        <img src="images/rose_logo_with_text.jpg" alt="Blue Rose Photography logo" style="width:15%;height:auto;">
-
-        <nav aria-label="Main Navigation">
-            <ul>
-                <li>Home</li>
-                <li>Photography Sessions</li>
-                <li>Gallery</li>
-            </ul>
-            
-        </nav>
-        <img src="images/pexels_lenses_yellow.jpg" alt="Three camera lenses on yellow background" style="width:100%;height:auto;">
+        <div class="column">
+            <img src="images/rose_logo_with_text.jpg" alt="Blue Rose Photography logo" style="width:15%;height:auto;">
+        </div>
+        <div class="column">
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li>Home</li>
+                    <li>Photography Sessions</li>
+                    <li>Gallery</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero-img">
+            <img src="images/pexels_lenses_yellow.jpg" alt="Three camera lenses on yellow background">
+        </div>
     </header>
  
     <main id="content">
         <section>
     
-            <h2 class="hidden">Photo Session Overview</h2>
+            <h3 class="hidden">Photo Session Overview</h3>
             <p>
                 Are you looking to capture some of life's little moments? Whether you want to capture your favourite place, take family or pet photos, or even just memorialize a walk down your favourite beach, <i>Blue Rose Photography</i> is here to make sure your memories last a lifetime!
                 <br><br>
@@ -40,76 +46,84 @@
             </p>
         </section>
         <section>
-            <h2>Book a Session</h3>
-            <p>
-                <!-- COLUMN 1 -->
-                Please refer to our calendar for available dates. Our most popular photo packages include: 
-                <br><br>
-                <b>Personal Package - $50 </b>
-                    <ul>
-                        <li>1 PERSON/SUBJECT</li>
-                        <li>30 MINUTE SESSION</li>
-                        <li>3 IMAGES</li>
-                    </ul>
-                <br>
-                <b>Small Group Package - $90 </b>
-                    <ul>
-                        <li>1-3 PEOPLE/SUBJECTS</li>
-                        <li>60 MINUTE SESSION</li>
-                        <li>5 IMAGES</li>
-                    </ul>
-                <br>
-                <b>Large Group Package - $125 </b>
-                    <ul>
-                        <li>1-6 PEOPLE/SUBJECTS</li>
-                        <li>60 MINUTE SESSION</li>
-                        <li>5 IMAGES</li>
-                    </ul> 
-                Photos will be provided in a digital format. If you would like your photos printed for you, that cost will be added to your package. Please specify this before your shoot.
-                <br><br>
-                <b>Additional images from your shoot can be purchased for $8 each upon request.</b>
-
-                <!-- COLUMN 2 -->
+            <div class="column">
+                <h3>Book a Session</h3>
+                <p>
+                    <!-- COLUMN 1 -->
+                    Please refer to our calendar for available dates. Our most popular photo packages include: 
+                    <br><br>
+                    <b>Personal Package - $50 </b><br>
+                        1 PERSON/SUBJECT<br>
+                        30 MINUTE SESSION<br>
+                        3 IMAGES<br>
+                    <br>
+                    <b>Small Group Package - $90 </b><br>
+                        1-3 PEOPLE/SUBJECTS<br>
+                        60 MINUTE SESSION<br>
+                        5 IMAGES<br>
+                    <br>
+                    <b>Large Group Package - $125 </b><br>
+                        1-6 PEOPLE/SUBJECTS<br>
+                        60 MINUTE SESSION<br>
+                        5 IMAGES<br>
+                    <br><br>
+                    Photos will be provided in a digital format. If you would like your photos printed for you, that cost will be added to your package. Please specify this before your shoot.
+                    <br><br>
+                    <b>Additional images from your shoot can be purchased for $8 each upon request.</b>
+                </p>
+            </div>
+            <div class="column">
                 <iframe src="https://calendar.google.com/calendar/embed?src=daoevf3pkmdhdmosdjji76m304%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="400" height="600" frameborder="0" scrolling="no"></iframe>
-            </p>
+            </div>
         </section>
-        <section>
-            
-            <img src="images/grafitti_wall.jpg" alt="Colourful grafitti wall" style="width:100%;height:auto;">
-
-            <!-- Column 1 -->
-            <h2>Contact Us</h2>
-            <p>
-                Are you looking for more information regarding specific pricing, bookings, editing, and more? Would you like to discuss an event or shoot?
-                <br><br>
-                <i>Blue Rose Photography</i> is happy to get in touch with you! Simply fill out our contact form with your name, email address, and any questions you may have, and we will get back to you in 2-3 business days!
-            </p>
-
-            <!-- Column 2 -->
-            <form action="email.php" method="POST" enctype="text/plain">
-                <input name="firstName" type="text" placeholder="First Name">
-                <input name="lastName" type="text" placeholder="Last Name">
-                <input name="contactInfo" type="text" placeholder="Email Address" required>
-                <textarea name="msg" placeholder="How can we help you?"></textarea>
-                <input name="submit" type="submit" value="Send">
-            </form>
+        <section class="contact">
+            <div class="hero-img">
+                <img src="images/grafitti_wall.jpg" alt="Colourful grafitti wall">
+            </div>
+            <div class="column">
+                <div>
+                    <h3>Contact Us</h3>
+                    <p>
+                        Are you looking for more information regarding specific pricing, bookings, editing, and more? Would you like to discuss an event or shoot?
+                        <br><br>
+                        <i>Blue Rose Photography</i> is happy to get in touch with you! Simply fill out our contact form with your name, email address, and any questions you may have, and we will get back to you in 2-3 business days!
+                    </p>
+                </div>
+                <div class="column">
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="firstName" type="text" placeholder="First Name">
+                        <input name="lastName" type="text" placeholder="Last Name">
+                        <input name="contactInfo" type="text" placeholder="Email Address" required>
+                        <textarea name="msg" placeholder="How can we help you?"></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <section>
-      
-            <img src="images/rose_logo_white.jpg" alt="Blue Rose Photography logo" style="width:15%;height:auto;">
-
-                <ul>
-                    <li>Home</li>
-                    <li>Photography Sessions</li>
-                    <li>Gallery</li>
-                </ul>
-                
-            </nav>
-            <p>
-                Copyright 2021 Blue Rose Photography - Terms of Use - Privacy Policy
-            </p>
+        <section class="row-after">
+            <div class="rectangle">
+                <div class="column">
+                    <div class="logo">
+                        <img src="images/rose_logo_white.jpg" alt="Blue Rose Photography logo" style="width:15%;height:auto;">
+                    </div>
+                </div>
+                <div class="column">
+                    <nav>
+                        <ul>
+                            <li><a href="homepage.html">Home</a></li>
+                            <li><a href="photosesh.html">Photography Sessions</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                    <div class="footerText">
+                        <p>
+                            Copyright 2021 Blue Rose Photography - Terms of Use - Privacy Policy
+                        </p>
+                    </div>
+                </div>
         </section>
     </footer>
 </body>
