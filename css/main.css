@@ -119,11 +119,10 @@ iframe {
 }
 
 form {
-    display: block;
+    display: inline;
     background-color: #07004E;
-    padding: 10px;
-    float: right;
-
+    float: left;
+    color: white;
 }
 
 input {

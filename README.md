@@ -1,6 +1,6 @@
 # Blue Rose Photography
 
-Play Rock Paper Scissors against your computer! You each start with 5 lives, the first to knock their opponent down to 0 wins.
+Website for a photography website. Includes a homepage, sessions page, and a gallery. Each page contains a contact page, with a form.
 
 ## Installation
 
@@ -16,10 +16,14 @@ Clone website off of github and open in browser.
 
 ## History
 
-Thursday, Dec 2: HTML Finalized
+Thursday, Dec 2, 2021: HTML Finalized
+Saturday Dec 4, 2021: CSS Mostly In
+Sunday Dec 5, 2021: Runnin Outta Time
 
 ## Credits
 
+W3 Schools
+https://www.w3schools.com/
 
 
 ## License
