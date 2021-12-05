@@ -2,6 +2,24 @@
 
 Website for a photography website. Includes a homepage, sessions page, and a gallery. Each page contains a contact page, with a form.
 
+Each page contains a header and a footer with a navigation bar and a logo, as well as a contact section at the bottom with a form.
+
+In the homepage, there is a business overview, and an about the photographer section.
+
+In the photo session page, there is an overview of packages and equipment, and an interactive Google Calendar.
+
+In the gallery page, there is a display of photos to show off work.
+
+## Issues to Fix
+
+The contact form will not go to the right side of the page.
+
+The footer logo isn't transparent.
+
+Footer Navigation should be white.
+
+Corners of form and calendar should be rounded.
+
 ## Installation
 
 Clone website off of github and open in browser.
